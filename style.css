@@ -1,1 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+ }
+ body
+ {
+ background-color: black;
+ font-size: medium;
+ }
+ header{
+    background-color: blue;
+    color: blue;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+ }
+ .titulo_site{
+    text-align:flex-start;
+    color: #ffffff;
+    padding: 50px;
+ }
+ .cabecalho-itens{
+    max-width: 1980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .rodape{
+    max-width: 1980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .barra_superior{
+    display: inline-block;
+    width: 70%;
+    height: 7px;
+    background-color: white;
+    border: none;
+    margin: 30px -5px;
+    border-radius: 20px;
+ }
+
+ .barra_inferior{
+    display: inline-block;
+    width: 70%;
+    height: 7px;
+    background-color: white;
+    border: none;
+    margin: 20px 160px;
+    border-radius: 20px;
+ }
+
+ .conteiner{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+ }
+ .coluna{
+    display: flex;
+    width: 40%;
+ }
+ .coluna-2{
+    display: flex;
+    width: 400px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    left: 1000px;
+ }
+ 
+ 
+ h3{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+ }
+ ol{
+    font-size: 1.2em;
+    line-height: 2;
+    color: white;
+    margin: 30px;
+ }
+  
+ ul{
+    display: inline-block;
+    font-size: 1em;
+    line-height: 2;
+    color: black;
+    margin-top: 50px;
+    margin-left: 50px;
+ }
+ 
+ 
+ .aba{
+    color: white;
+    font-size: 1.6em;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 20px 30px;
+ }
+
+ .aba2{
+    color: white;
+    font-size: 1.3em;
+    padding: 50px 30px;
+ }
+ 
+ 
+ .pa{
+    color: white;
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0px 100px;
+ }
+ 
+ 
+ .pe{
+    color: white;
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0px 100px;
+ }
+ 
+ 
+ .pi{
+    color: white;
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0px 100px;
+ }
+ 
+ 
+ .po{
+    color: white;
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0px 100px;
+ }
+ 
+ .pu{
+    color: white;
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0px 100px;
+ } 
+
+.foto{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    position: relative;
+    left: 250px;
+}
+
+
 
